@@ -1,0 +1,27 @@
+.wrapper {
+  background-color: #f7f7f7;
+}
+
+.is-row {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.block-title {
+  padding: 92px 0;
+  text-align: center;
+  font-size: 34px;
+  font-weight: lighter;
+  color: #535353;
+}
+
+.pdb-110 {
+  padding-bottom: 110px;
+}
+
+.ls-bg-blue {
+  background: #49a0db;
+  .block-title {
+    color: #fff;
+  }
+}

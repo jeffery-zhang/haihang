@@ -1,0 +1,68 @@
+.wrapper {
+  .banner {
+    height: 660px;
+    background: url(./../imgs/index/banner.jpg) center;
+    .index-nav {
+      min-width: 1200px;
+      height: 76px;
+      padding: 22px 50px;
+      .index-nav-logo {
+        width: 160px;
+        height: 30px;
+      }
+      .index-nav-list {
+        li {
+          float: left;
+          padding-left: 40px;
+          a {
+            line-height: 20px;
+            font-size: 16px;
+            color: #fff;
+            &:hover {
+              padding-bottom: 10px;
+              border-bottom: 2px solid #fff;
+            }
+          }
+        }
+      }
+    }
+    .index-slogan {
+      padding-top: 135px;
+      span {
+        color: #fff;
+      }
+      .slogan-1 {
+        margin-bottom: 23px;
+        font-size: 46px;
+        span {
+          padding-right: 62px;
+        }
+      }
+      .slogan-2 {
+        margin-bottom: 60px;
+        font-size: 30px;
+        span {
+          padding-right: 30px;
+        }
+      }
+    }
+  }
+  .service {
+    .service-img {
+      position: relative;
+      float: left;
+      width: 216px;
+      margin-bottom: 70px;
+      text-align: center;
+      img {
+        width: 78px;
+        height: 78px;
+        margin-bottom: 18px;
+      }
+      .service-img-text {
+        font-size: 16px;
+        color: #535353;
+      }
+    }
+  }
+}
